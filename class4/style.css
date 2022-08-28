@@ -1,0 +1,52 @@
+/* external css */
+
+* {
+    margin: 0;
+}
+p{
+    font-family:  'Open Sans', sans-serif;
+}
+.square {
+    width: 200px;
+    border: 1px solid peru;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: deepskyblue; */
+    height: 200px;
+    width: 900px;
+    /* % is a relative unit */
+    width: 100%;
+    max-width: 900px;
+    /* hex */
+    color: hsl(266, 66%, 35%, 0.6);
+}
+/* selector */
+/* tag, className, Id, *, descendant, multiple selectors, direct selectors */
+
+/* multiple selector */
+h2, h3{
+    color: green;
+}
+/* descendant selector */
+div p{
+    border: 5px solid peru;
+    border-radius: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:20px;
+    margin: 23px 45px 65px 12px;
+    /* margin: 30px 23px; */
+    outline: 3px solid red;
+    font-weight:bold;
+}
+
+p span {
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+    max-width: 600px;
+}

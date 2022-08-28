@@ -28,5 +28,26 @@
    <h3>
     Welcome to Contact
    </h3> 
+   <form  action="https://formsubmit.co/koorakabar@gmail.com" method="POST" >
+    <label for="">
+        Name:
+        <input type="text" name="username">
+    </label>
+    <br>
+    <label for="">
+        Email:
+        <input type="email" name="email">
+    </label>
+    <br>
+    <label for="">
+        Message:
+        <br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+    </label>
+    <br>
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="submit" value="Send Message">
+   </form>
 </body>
 </html>
